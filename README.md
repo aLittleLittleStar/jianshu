@@ -1,7 +1,7 @@
 <!--
  * @Author: liubaozhen
  * @Date: 2021-01-12 21:00:55
- * @LastEditTime: 2021-01-12 21:20:34
+ * @LastEditTime: 2021-01-13 22:47:28
  * @LastEditors: liubaozhen
  * @Description: 
  * @FilePath: \jianshu\README.md
@@ -52,3 +52,4 @@ Git工作流
 ## 操作流程
 ###  安装 styled-components
 ### 重置样式 引入  reset.css
+### yarn add less less-loader --dev
