@@ -1,10 +1,10 @@
 <!--
  * @Author: liubaozhen
  * @Date: 2021-01-12 21:00:55
- * @LastEditTime: 2021-01-13 22:47:28
+ * @LastEditTime: 2021-01-18 23:04:20
  * @LastEditors: liubaozhen
  * @Description: 
- * @FilePath: \jianshu\README.md
+ * @FilePath: \webhis-frontd:\WorkingInterval\Karry\jianshu\README.md
 -->
 推荐使用 yarn 作为包管理器，需要先全局安装
  `npm i -g yarn`
@@ -53,3 +53,4 @@ Git工作流
 ###  安装 styled-components
 ### 重置样式 引入  reset.css
 ### yarn add less less-loader --dev
+### yarn add react-transition-group

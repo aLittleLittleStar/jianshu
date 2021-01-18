@@ -1,10 +1,10 @@
 /*
  * @Author: liubaozhen
  * @Date: 2021-01-13 22:21:46
- * @LastEditTime: 2021-01-14 00:04:23
+ * @LastEditTime: 2021-01-18 23:32:08
  * @LastEditors: liubaozhen
  * @Description:
- * @FilePath: \jianshu\src\common\header\style.js
+ * @FilePath: \webhis-frontd:\WorkingInterval\Karry\jianshu\src\common\header\style.js
  */
 import styled from "styled-components";
 import logoPic from "../../statics/logo.png";
@@ -64,6 +64,10 @@ export const SearchWrapper = styled.div`
     border-radius: 15px;
     // background: green;
     text-align: center;
+    &.focused {
+      background: #777;
+      color: #fff;
+    }
   }
 `;
 
@@ -84,6 +88,22 @@ export const NavSearch = styled.input.attrs({
   color: #666;
   &::placeholder {
     color: #999;
+  }
+  &.focused {
+    width: 240px;
+  }
+  &.slide-enter {
+    width: 160px;
+    transition: all 0.2s ease-out;
+  }
+  &.slide-enter-active {
+    width: 240px;
+  }
+  &.slide-exit {
+    transition: all 0.2s ease-out;
+  }
+  &.slide-exit-active {
+    width: 160px;
   }
 `;
 
