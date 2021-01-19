@@ -1,7 +1,7 @@
 /*
  * @Author: liubaozhen
  * @Date: 2021-01-13 22:16:04
- * @LastEditTime: 2021-01-18 23:53:15
+ * @LastEditTime: 2021-01-19 20:49:29
  * @LastEditors: liubaozhen
  * @Description:
  * @FilePath: \webhis-frontd:\WorkingInterval\Karry\jianshu\src\common\header\index.js
@@ -59,7 +59,7 @@ const Header = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    focused: state.focused,
+    focused: state.header.get("focused"),
   };
 };
 
