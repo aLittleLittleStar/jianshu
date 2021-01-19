@@ -1,7 +1,7 @@
 <!--
  * @Author: liubaozhen
  * @Date: 2021-01-12 21:00:55
- * @LastEditTime: 2021-01-18 23:04:20
+ * @LastEditTime: 2021-01-19 20:52:16
  * @LastEditors: liubaozhen
  * @Description: 
  * @FilePath: \webhis-frontd:\WorkingInterval\Karry\jianshu\README.md
@@ -54,3 +54,4 @@ Git工作流
 ### 重置样式 引入  reset.css
 ### yarn add less less-loader --dev
 ### yarn add react-transition-group
+### yarn add immutable
